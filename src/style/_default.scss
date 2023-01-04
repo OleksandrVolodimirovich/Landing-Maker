@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: var(--main-color);
+
+  user-select: none;
+}
+h1,
+h2 {
+  font-family: cormorant-700;
+  font-weight: 700;
+  font-size: 70px;
+  color: var(--main-color);
+  letter-spacing: 0.01em;
+}
+.container {
+  max-width: 1374px;
+  margin: 0 auto;
+  padding: 0 42px;
+}
+.hide{
+	display: none;
+}
+
+ul,
+ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea{
+  font: inherit;
+}
+
+button{
+  cursor: pointer;
+}
+
